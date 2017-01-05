@@ -1,7 +1,7 @@
 Builds:
 
-[TensorFlow](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker)
-GDAL ([gdal-docker] (https://github.com/geo-data/gdal-docker))
+- [TensorFlow](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker)
+- GDAL ([gdal-docker] (https://github.com/geo-data/gdal-docker))
 
 ## Running the container
 
