@@ -1,22 +1,14 @@
-**TensorFlow** is an open source software library for numerical computation using
-data flow graphs.  Nodes in the graph represent mathematical operations, while
-the graph edges represent the multidimensional data arrays (tensors) that flow
-between them.  This flexible architecture lets you deploy computation to one
-or more CPUs or GPUs in a desktop, server, or mobile device without rewriting
-code.  TensorFlow also includes TensorBoard, a data visualization toolkit.
+Builds:
 
-# Using TensorFlow via Docker
-
-This directory contains `Dockerfile`s to make it easy to get up and running with
-TensorFlow via [Docker](http://www.docker.com/) with the addition of image processing utils 
-such as GDAL.
+[TensorFlow](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker)
+GDAL ([gdal-docker] (https://github.com/geo-data/gdal-docker))
 
 ## Running the container
 
 Run non-GPU container using
 
-    $ docker run --name=tensorflow -itd -p 8888:8888 ageblade/tensorflow:latest
-	$ docker exec -it tensorflow /bin/bash
+    $ docker run --name=deep -itd -p 8888:8888 ageblade/deep:latest
+	$ docker exec -it deep /bin/bash
 
 
 
