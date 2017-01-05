@@ -27,6 +27,6 @@ RUN apt-get install -y \
 RUN apt-get purge -y \
 	make
 	
-ENV SRC_PATH /sources
+ENV SRC_PATH /SpaceNetChallenge
 	
-ADD . $SRC_PATH
+ADD ./SpaceNetChallenge $SRC_PATH
